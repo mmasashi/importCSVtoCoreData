@@ -1,0 +1,257 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		219D5237142C8E9400A5E5C0 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 219D5236142C8E9400A5E5C0 /* CoreData.framework */; };
+		219D5239142C8E9400A5E5C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 219D5238142C8E9400A5E5C0 /* Foundation.framework */; };
+		219D523C142C8E9400A5E5C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 219D523B142C8E9400A5E5C0 /* main.m */; };
+		219D5241142C8E9500A5E5C0 /* importCSVtoCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 219D523F142C8E9500A5E5C0 /* importCSVtoCoreData.xcdatamodeld */; };
+		219D5243142C8E9500A5E5C0 /* importCSVtoCoreData.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 219D5242142C8E9500A5E5C0 /* importCSVtoCoreData.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		219D5230142C8E9400A5E5C0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				219D5243142C8E9500A5E5C0 /* importCSVtoCoreData.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		219D5232142C8E9400A5E5C0 /* importCSVtoCoreData */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = importCSVtoCoreData; sourceTree = BUILT_PRODUCTS_DIR; };
+		219D5236142C8E9400A5E5C0 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		219D5238142C8E9400A5E5C0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		219D523B142C8E9400A5E5C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		219D523E142C8E9400A5E5C0 /* importCSVtoCoreData-Prefix.pch */ = {isa = PBXFileReference; path = "importCSVtoCoreData-Prefix.pch"; sourceTree = "<group>"; };
+		219D5240142C8E9500A5E5C0 /* importCSVtoCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = importCSVtoCoreData.xcdatamodel; sourceTree = "<group>"; };
+		219D5242142C8E9500A5E5C0 /* importCSVtoCoreData.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = importCSVtoCoreData.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		219D522F142C8E9400A5E5C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				219D5237142C8E9400A5E5C0 /* CoreData.framework in Frameworks */,
+				219D5239142C8E9400A5E5C0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		219D5227142C8E9400A5E5C0 = {
+			isa = PBXGroup;
+			children = (
+				219D523A142C8E9400A5E5C0 /* importCSVtoCoreData */,
+				219D5235142C8E9400A5E5C0 /* Frameworks */,
+				219D5233142C8E9400A5E5C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		219D5233142C8E9400A5E5C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				219D5232142C8E9400A5E5C0 /* importCSVtoCoreData */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		219D5235142C8E9400A5E5C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				219D5236142C8E9400A5E5C0 /* CoreData.framework */,
+				219D5238142C8E9400A5E5C0 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		219D523A142C8E9400A5E5C0 /* importCSVtoCoreData */ = {
+			isa = PBXGroup;
+			children = (
+				219D523B142C8E9400A5E5C0 /* main.m */,
+				219D5242142C8E9500A5E5C0 /* importCSVtoCoreData.1 */,
+				219D523F142C8E9500A5E5C0 /* importCSVtoCoreData.xcdatamodeld */,
+				219D523D142C8E9400A5E5C0 /* Supporting Files */,
+			);
+			path = importCSVtoCoreData;
+			sourceTree = "<group>";
+		};
+		219D523D142C8E9400A5E5C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				219D523E142C8E9400A5E5C0 /* importCSVtoCoreData-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		219D5231142C8E9400A5E5C0 /* importCSVtoCoreData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 219D5246142C8E9500A5E5C0 /* Build configuration list for PBXNativeTarget "importCSVtoCoreData" */;
+			buildPhases = (
+				219D522E142C8E9400A5E5C0 /* Sources */,
+				219D522F142C8E9400A5E5C0 /* Frameworks */,
+				219D5230142C8E9400A5E5C0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = importCSVtoCoreData;
+			productName = importCSVtoCoreData;
+			productReference = 219D5232142C8E9400A5E5C0 /* importCSVtoCoreData */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		219D5229142C8E9400A5E5C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = mmasashi.jp;
+			};
+			buildConfigurationList = 219D522C142C8E9400A5E5C0 /* Build configuration list for PBXProject "importCSVtoCoreData" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 219D5227142C8E9400A5E5C0;
+			productRefGroup = 219D5233142C8E9400A5E5C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				219D5231142C8E9400A5E5C0 /* importCSVtoCoreData */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		219D522E142C8E9400A5E5C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				219D523C142C8E9400A5E5C0 /* main.m in Sources */,
+				219D5241142C8E9500A5E5C0 /* importCSVtoCoreData.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		219D5244142C8E9500A5E5C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		219D5245142C8E9500A5E5C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		219D5247142C8E9500A5E5C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "importCSVtoCoreData/importCSVtoCoreData-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		219D5248142C8E9500A5E5C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "importCSVtoCoreData/importCSVtoCoreData-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		219D522C142C8E9400A5E5C0 /* Build configuration list for PBXProject "importCSVtoCoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				219D5244142C8E9500A5E5C0 /* Debug */,
+				219D5245142C8E9500A5E5C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		219D5246142C8E9500A5E5C0 /* Build configuration list for PBXNativeTarget "importCSVtoCoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				219D5247142C8E9500A5E5C0 /* Debug */,
+				219D5248142C8E9500A5E5C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		219D523F142C8E9500A5E5C0 /* importCSVtoCoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				219D5240142C8E9500A5E5C0 /* importCSVtoCoreData.xcdatamodel */,
+			);
+			currentVersion = 219D5240142C8E9500A5E5C0 /* importCSVtoCoreData.xcdatamodel */;
+			path = importCSVtoCoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 219D5229142C8E9400A5E5C0 /* Project object */;
+}
