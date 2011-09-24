@@ -12,6 +12,7 @@
 		219D523C142C8E9400A5E5C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 219D523B142C8E9400A5E5C0 /* main.m */; };
 		219D5241142C8E9500A5E5C0 /* importCSVtoCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 219D523F142C8E9500A5E5C0 /* importCSVtoCoreData.xcdatamodeld */; };
 		219D5243142C8E9500A5E5C0 /* importCSVtoCoreData.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 219D5242142C8E9500A5E5C0 /* importCSVtoCoreData.1 */; };
+		219D524B142C8F3E00A5E5C0 /* CSVParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 219D524A142C8F3E00A5E5C0 /* CSVParser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,9 +33,18 @@
 		219D5236142C8E9400A5E5C0 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		219D5238142C8E9400A5E5C0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		219D523B142C8E9400A5E5C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		219D523E142C8E9400A5E5C0 /* importCSVtoCoreData-Prefix.pch */ = {isa = PBXFileReference; path = "importCSVtoCoreData-Prefix.pch"; sourceTree = "<group>"; };
+		219D523E142C8E9400A5E5C0 /* importCSVtoCoreData-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "importCSVtoCoreData-Prefix.pch"; sourceTree = "<group>"; };
 		219D5240142C8E9500A5E5C0 /* importCSVtoCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = importCSVtoCoreData.xcdatamodel; sourceTree = "<group>"; };
 		219D5242142C8E9500A5E5C0 /* importCSVtoCoreData.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = importCSVtoCoreData.1; sourceTree = "<group>"; };
+		219D5249142C8F3E00A5E5C0 /* CSVParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSVParser.h; sourceTree = "<group>"; };
+		219D524A142C8F3E00A5E5C0 /* CSVParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSVParser.m; sourceTree = "<group>"; };
+		219D5250142D8D4D00A5E5C0 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		219D5252142D8D8500A5E5C0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		219D5254142D95B100A5E5C0 /* importCSVtoCoreData */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = importCSVtoCoreData; sourceTree = "<group>"; };
+		219D5256142D95B100A5E5C0 /* importCSVtoCoreData.mom */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = importCSVtoCoreData.mom; sourceTree = "<group>"; };
+		219D5257142D95B100A5E5C0 /* VersionInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = VersionInfo.plist; sourceTree = "<group>"; };
+		219D5258142D95B100A5E5C0 /* Members_test.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Members_test.csv; sourceTree = "<group>"; };
+		219D5259142D95B100A5E5C0 /* test.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = test.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,9 +63,12 @@
 		219D5227142C8E9400A5E5C0 = {
 			isa = PBXGroup;
 			children = (
+				219D5252142D8D8500A5E5C0 /* README.md */,
+				219D5250142D8D4D00A5E5C0 /* LICENSE */,
 				219D523A142C8E9400A5E5C0 /* importCSVtoCoreData */,
 				219D5235142C8E9400A5E5C0 /* Frameworks */,
 				219D5233142C8E9400A5E5C0 /* Products */,
+				219D5253142D95B100A5E5C0 /* Sample */,
 			);
 			sourceTree = "<group>";
 		};
@@ -82,6 +95,8 @@
 				219D523B142C8E9400A5E5C0 /* main.m */,
 				219D5242142C8E9500A5E5C0 /* importCSVtoCoreData.1 */,
 				219D523F142C8E9500A5E5C0 /* importCSVtoCoreData.xcdatamodeld */,
+				219D5249142C8F3E00A5E5C0 /* CSVParser.h */,
+				219D524A142C8F3E00A5E5C0 /* CSVParser.m */,
 				219D523D142C8E9400A5E5C0 /* Supporting Files */,
 			);
 			path = importCSVtoCoreData;
@@ -93,6 +108,26 @@
 				219D523E142C8E9400A5E5C0 /* importCSVtoCoreData-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		219D5253142D95B100A5E5C0 /* Sample */ = {
+			isa = PBXGroup;
+			children = (
+				219D5254142D95B100A5E5C0 /* importCSVtoCoreData */,
+				219D5255142D95B100A5E5C0 /* importCSVtoCoreData.momd */,
+				219D5258142D95B100A5E5C0 /* Members_test.csv */,
+				219D5259142D95B100A5E5C0 /* test.sh */,
+			);
+			path = Sample;
+			sourceTree = "<group>";
+		};
+		219D5255142D95B100A5E5C0 /* importCSVtoCoreData.momd */ = {
+			isa = PBXGroup;
+			children = (
+				219D5256142D95B100A5E5C0 /* importCSVtoCoreData.mom */,
+				219D5257142D95B100A5E5C0 /* VersionInfo.plist */,
+			);
+			path = importCSVtoCoreData.momd;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +182,7 @@
 			files = (
 				219D523C142C8E9400A5E5C0 /* main.m in Sources */,
 				219D5241142C8E9500A5E5C0 /* importCSVtoCoreData.xcdatamodeld in Sources */,
+				219D524B142C8F3E00A5E5C0 /* CSVParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +273,7 @@
 				219D5248142C8E9500A5E5C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
